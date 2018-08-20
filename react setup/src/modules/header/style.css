@@ -1,0 +1,12 @@
+.header {
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 140px;
+  height: 64px;
+  margin-right: 20px;
+  position: relative;
+  top: -1px;
+}

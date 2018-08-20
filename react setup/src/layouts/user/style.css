@@ -1,0 +1,32 @@
+.userLayout {
+  height: 100%;
+}
+
+.screen {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navigation {
+  line-height: 62px;
+  background: #fff;
+}
+
+.navigationUser {
+  float: right !important;
+}
+
+.navigationUser:after {
+  clear: both;
+}
+
+.header .user {
+  float: right;
+}

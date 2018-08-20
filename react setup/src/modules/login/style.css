@@ -1,0 +1,35 @@
+.form {
+  border: 1px solid #999;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.logo {
+  text-align: center;
+  padding: 30px;
+}
+
+.logo img {
+  width: 175px;
+}
+
+.loginButton {
+  width: 100%;
+}
+
+.formItem {
+  margin-bottom: 12px;
+}
+
+.formItem:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #999;
+
+  padding-top: 12px;
+  text-align: center;
+}
