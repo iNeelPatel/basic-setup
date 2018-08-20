@@ -1,0 +1,38 @@
+{
+  "name": "dte-hackathon",
+  "version": "1.0.0",
+  "description": "Inward & Outward register",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iNeelPatel/dte-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iNeelPatel/dte-hackathon/issues"
+  },
+  "homepage": "https://github.com/iNeelPatel/dte-hackathon#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.8",
+    "morgan": "^1.9.0",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^2.8.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
