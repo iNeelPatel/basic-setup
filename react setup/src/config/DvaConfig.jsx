@@ -4,9 +4,7 @@ import { routerRedux } from "dva/router";
 import createHistory from "history/createBrowserHistory";
 import dynamic from "dva/dynamic";
 import { createLogger } from "redux-logger";
-
-import user from "../layouts/user/model";
-import RootLayout from "../layouts/root/container";
+import RootLayout from "../layout/root/container";
 
 const { ConnectedRouter } = routerRedux;
 
@@ -20,7 +18,7 @@ const app = dva({
 app.router(({ history }) => {
   const RootLayoutWrapper = dynamic({
     app,
-    models: () => [user],
+
     component: () => RootLayout
   });
 
